@@ -7,8 +7,8 @@ const Navigation = () => {
   const handleResumeDownload = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/Abdullah_James_CV.pdf'; // Points to the CV file in public folder
-    link.download = 'Abdullah_James_CV.pdf'; // Downloaded file name
+    link.href = '/Mohammed_Ikram_Ashrafi_CV.pdf'; // Points to the CV file in public folder
+    link.download = 'Mohammed_Ikram_Ashrafi_CV.pdf'; // Downloaded file name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -19,7 +19,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-primary cursor-pointer">
-            {'<Dev/>'}
+            {'<MI/>'}
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#about" className="hover:text-primary transition-colors">About</a>

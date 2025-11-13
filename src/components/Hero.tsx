@@ -321,13 +321,13 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-6">
             <h1 className="text-5xl md:text-7xl font-bold leading-tight floating-text glowing-text">
-              Hello, I'm Abdullah
+              Hello, I'm Mohammed Ikram
             </h1>
             <div className="text-2xl md:text-3xl font-mono text-primary floating-text-delayed">
-              AI / Full-Stack Developer
+              Python Developer | Full-Stack & GenAI Integration Developer
             </div>
             <p className="text-xl leading-relaxed max-w-3xl mx-auto text-muted-foreground floating-text opacity-90">
-              Where complexity meets clarity: I ask the right questions and engineer innovative solutions that actually work
+              A Python Developer with hands-on experience in full-stack web development, Generative AI (GenAI), and Large Language Model (LLM) integration. Building cutting-edge, intelligent systems that merge software engineering with advanced AI technologies.
             </p>
           </div>
         </div>

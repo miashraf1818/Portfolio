@@ -6,24 +6,24 @@ import { Card } from '@/components/ui/card';
 const Skills = () => {
   const skills = [
     { 
-      category: "Languages", 
-      items: ["JavaScript/TypeScript", "Python", "Java", "C", "Visual Basic .NET"],
+      category: "Programming & Frameworks", 
+      items: ["Python", "JavaScript", "Django", "FastAPI", "Flask", "React", "Django REST Framework", "SQLAlchemy ORM", "Async/Await Programming"],
       icon: <Code className="w-6 h-6" />
     },
     { 
-      category: "Backend & Cloud", 
-      items: ["Node.js", "Express.js", "MongoDB", "JWT Authentication", "RESTful APIs", "Stripe Integration"],
+      category: "AI/ML Technologies", 
+      items: ["LangChain", "Large Language Models (Llama 3.3, Google Gemini)", "RAG Architecture", "Pinecone Vector Database", "HuggingFace Transformers", "Semantic Search", "Groq API", "Vector Embeddings", "Document Processing"],
       icon: <Database className="w-6 h-6" />
     },
     { 
-      category: "Frontend & Mobile", 
-      items: ["React", "Next.js", "Vue.js", "Tailwind CSS", "Windows Forms", "Responsive Design"],
+      category: "Frontend & Database", 
+      items: ["React", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "PostgreSQL", "MySQL", "SQLite", "Responsive Design"],
       icon: <Terminal className="w-6 h-6" />
     },
     { 
-      category: "Data & AI", 
-      items: ["TensorFlow", "PyTorch", "Reinforcement Learning", "Neural Networks", "Algorithm Visualization"],
-      icon: <Database className="w-6 h-6" />
+      category: "DevOps & Deployment", 
+      items: ["Docker", "Render", "AWS EC2", "Vercel", "CI/CD", "Git", "GitHub", "Postman", "VS Code", "Production Debugging"],
+      icon: <Settings className="w-6 h-6" />
     }
   ];
 

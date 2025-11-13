@@ -50,26 +50,26 @@ const Contact = () => {
                 <div className="flex items-center gap-4 group">
                   <Mail className="w-6 h-6 text-primary group-hover:scale-110 transition-transform" />
                   <a 
-                    href="mailto:jamesabdullah82@gmail.com?subject=PortfolioContact"
+                    href="mailto:ikramshariff2005@gmail.com?subject=PortfolioContact"
                     className="hover:text-primary transition-colors cursor-pointer"
                   >
-                    jamesabdullah82@gmail.com
+                    ikramshariff2005@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-4 group">
                   <Linkedin className="w-6 h-6 text-primary group-hover:scale-110 transition-transform" />
-                  <a href={"https://www.linkedin.com/in/abdullah-james/"} target="_blank" rel="noopener noreferrer"
+                  <a href={"https://www.linkedin.com/in/mohammed-ikram-ashrafi/"} target="_blank" rel="noopener noreferrer"
                     className="hover:text-primary transition-colors cursor-pointer"
                   >
-                    <span>linkedin.com/in/abdullah-james</span>
+                    <span>linkedin.com/in/mohammed-ikram-ashrafi</span>
                   </a>
                 </div>
                 <div className="flex items-center gap-4 group">
                   <Github className="w-6 h-6 text-primary group-hover:scale-110 transition-transform" />
-                 <a href={"https://github.com/Absatron"} target="_blank" rel="noopener noreferrer"
+                 <a href={"https://github.com/miashraf1818"} target="_blank" rel="noopener noreferrer"
                     className="hover:text-primary transition-colors cursor-pointer"
                   >
-                    <span>github.com/Absatron</span>
+                    <span>github.com/miashraf1818</span>
                   </a>
                 </div>
               </div>

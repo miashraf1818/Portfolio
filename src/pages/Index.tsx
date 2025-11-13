@@ -23,10 +23,10 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-2xl font-bold mb-4 md:mb-0 text-primary">
-              {'<Dev/>'}
+              {'<MI/>'}
             </div>
             <div className="text-muted-foreground">
-              © 2025 Abdullah. All rights reserved.
+              © 2025 Mohammed Ikram Ashrafi. All rights reserved.
             </div>
           </div>
         </div>
