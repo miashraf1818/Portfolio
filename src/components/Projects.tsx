@@ -226,7 +226,7 @@ const Projects = () => {
       title: "GenAI RAG Chatbot Project",
       description: "Enterprise-grade AI chatbot with Retrieval-Augmented Generation (RAG) using Llama 3.3-70B via Groq API. Built FastAPI backend with JWT and Google OAuth authentication, role-based access control, and complete RAG pipeline supporting PDF, DOCX, TXT, and Markdown documents. Integrated Pinecone vector database with HuggingFace embeddings for semantic search with sub-200ms response time.",
       tech: ["Python", "FastAPI", "LangChain", "Pinecone", "Llama 3.3", "React", "PostgreSQL", "JWT", "Google OAuth", "HuggingFace", "Docker", "Render"],
-      github: "https://github.com/miashraf1818/ai-chatbot-advanced"
+      github: "https://github.com/miashraf1818/-genai-rag-chatbot"
     },
     {
       title: "Anti-Ragging Complaint Management System",

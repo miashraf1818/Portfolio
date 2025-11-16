@@ -1,7 +1,10 @@
+# robots.txt for Mohammed Ikram Ashrafi Portfolio
+# Last updated: 2025-11-16
+
 User-agent: *
 Allow: /
 
-# Specific bots
+# Specific bots (explicit permission)
 User-agent: Googlebot
 Allow: /
 
@@ -17,18 +20,13 @@ Allow: /
 User-agent: LinkedInBot
 Allow: /
 
-# Sitemap
-Sitemap: https://mohammed-ikram-ashrafi.vercel.app/
-Allow: /
+# Disallow crawlers from accessing development or private files
+Disallow: /api/
+Disallow: /admin/
+Disallow: /server/
+Disallow: /backend/
+Disallow: /tmp/
+Disallow: /private/
 
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: *
-Allow: /
+# Sitemap for search engines
+Sitemap: https://mohammed-ikram-ashrafi.vercel.app/sitemap.xml
